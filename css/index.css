@@ -1,0 +1,40 @@
+* {
+    font-family: 'Trebuchet MS', 'Roboto';
+    color: #6b6b6b;
+}
+
+body {
+    background-color: #212121;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.center {
+    text-align: center;
+}
+
+button#ClickBTN {
+    background-color: #a52a2a;
+    border: none;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    width: 10%;
+    color: #cecece;
+    font-size: large;
+    transition: 0.1s;
+}
+
+button#ClickBTN:active {
+    background-color: #7a1d1d;
+}
+
+p {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+p > span {
+    font-size: large;
+}
